@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <audio id="sound1" src="./sounds/tom-1.mp3"></audio>
+    <audio id="sound2" src="./sounds/tom-2.mp3"></audio>
+    <audio id="sound3" src="./sounds/tom-3.mp3"></audio>
+    <audio id="sound4" src="./sounds/tom-4.mp3"></audio>
+    <audio id="sound5" src="./sounds/crash.mp3"></audio>
+    <audio id="sound6" src="./sounds/kick-bass.mp3"></audio>
+    <audio id="sound7" src="./sounds/snare.mp3"></audio>
+
+    <button class="w drum" onclick="document.getElementById('sound1').play();" >w</button>
+    <button class="a drum" onclick="document.getElementById('sound2').play();" >a</button>
+    <button class="s drum" onclick="document.getElementById('sound3').play();" >s</button>
+    <button class="d drum" onclick="document.getElementById('sound4').play();" >d</button>
+    <button class="j drum" onclick="document.getElementById('sound5').play();" >j</button>
+    <button class="k drum" onclick="document.getElementById('sound6').play();" >k</button>
+    <button class="l drum" onclick="document.getElementById('sound7').play();"  >l</button>
+  </div>
+
+
+  <footer>
+    Made with ❤️ in London.
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
